@@ -4,8 +4,14 @@
   
 @import "base/_variables";
 @import "base/_mixins";
-@import "general";
-@import "media";
+@import "blocks/promo";
+@import 'blocks/header.scss';
+@import 'blocks/buttons';
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
 
 
 
