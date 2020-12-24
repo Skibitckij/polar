@@ -4,13 +4,22 @@
   
 @import "base/_variables";
 @import "base/_mixins";
+@import "base/_media";
 @import "blocks/promo";
 @import 'blocks/header.scss';
 @import 'blocks/buttons';
+@import 'blocks/advantages';
+
 
 .container {
   max-width: 950px;
   margin: 0 auto;
+  @media (max-width:950px){
+    max-width: 800px;
+  }
+  @media (max-width:768px){
+    max-width: 650px;
+  }
 }
 
 
