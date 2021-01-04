@@ -20,6 +20,9 @@
         font-weight: 700;
         text-transform: uppercase;
         line-height: 42px;
+        @media (max-width:425px){
+            text-align: center;
+        }
     };
     &__subheader {
         color: #ffffff;
@@ -28,12 +31,19 @@
         text-transform: uppercase;
         margin-top: 17px;
         line-height: 24px;
+        @media (max-width:425px){
+            text-align: center;
+            margin-top: 25px;
+        }
     };
     &__icons {
         margin-top: 65px;
         width: 425px;
         display: flex;
         justify-content: space-between;
+        @media (max-width: 425px){
+            width: 380px;
+        }
     };
     &__icon {
         width: 108px;
