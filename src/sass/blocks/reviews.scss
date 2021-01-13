@@ -1,0 +1,38 @@
+.review__wraper {
+  hr {
+    height: 1px;
+    background-color: #cececebe;
+    border: none;
+    &:last-child {
+      
+      display: none;
+    }
+  }
+.review-item {
+  display: flex;
+  margin-top: 70px;
+  &__img {
+    padding: 0 62px 67px 0;
+  }
+}
+.review-item__info {
+  &_title {
+    color: #0d0d0d;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+  }
+  &_subtitle {
+    color: #646464;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+  }
+  &_content {
+    color: #0d0d0d;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+  }
+}
+}
