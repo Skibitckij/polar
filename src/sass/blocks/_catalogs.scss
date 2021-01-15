@@ -47,6 +47,11 @@
         display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        @media (max-width:425px){
+            display: flex;
+            justify-content: center;
+        }
+
         &_active {
             display: flex;
         }
