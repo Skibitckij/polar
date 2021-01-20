@@ -2,7 +2,7 @@
     font-family: 'Museo Sans Cyrl', sans-serif;
   }
   
-@import "base/_variables";
+@import 'base/variables';
 @import "base/_mixins";
 @import "base/_media";
 @import "blocks/promo";
@@ -15,6 +15,7 @@
 @import 'blocks/carousel';
 @import 'blocks/catalogs';
 @import 'blocks/reviews';
+@import 'blocks/footer';
 
 
 .container {

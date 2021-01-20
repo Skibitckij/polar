@@ -9,6 +9,13 @@
         margin-bottom: 0;
         padding-left: 0;
         
+        
+    }
+    &__tabs {
+        @media (max-width:425px){
+            
+            padding: 0 40px 0 40px;
+        }
     }
     &__tab {
         width: 220px;
@@ -25,7 +32,9 @@
         cursor: pointer;
         transition: 0.5s all;
         @media (max-width:425px){
-            font-size: 14px;
+            font-size: 10px;
+            line-height: 48px;
+            
         }
         &:hover {
             box-shadow: 3px 3px 20px $main-color;
