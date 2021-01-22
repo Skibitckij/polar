@@ -13,6 +13,7 @@
         padding: 50px 68px 60px 68px;
         @media (max-width:425px){
             height: 170px;
+            width: 100%;
             opacity: 0.8;
         }
     }
@@ -23,6 +24,9 @@
         color: #ffffff;
         text-align: center;
         line-height: 20px;
+        @media (max-width:425px){
+            font-size: 16px;
+        }
     }
     &__phone {
         display: block;
@@ -32,6 +36,9 @@
         text-align: center;
         margin-bottom: 36px;
         line-height: 20px;
+        @media (max-width:425px){
+            font-size: 16px;
+        }
         &:hover {
             color: #ffffff;
         }
