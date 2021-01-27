@@ -3,8 +3,8 @@ $(document).ready(function(){
         infinite: true,
         speed: 1200,
         adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../img/left-arrow.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../img/right-arrow.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="img/left-arrow.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="img/right-arrow.png"></button>',
         responsive: [
             {
             breakpoint: 992,
@@ -90,5 +90,6 @@ $(document).ready(function(){
  valideForms('#consultation-form');
  valideForms('#consultation form');
  valideForms('#order form');
+ $('input[name=phone]').mask('+7 (999) 999-99-99')
 });
   
